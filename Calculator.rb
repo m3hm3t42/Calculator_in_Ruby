@@ -28,3 +28,9 @@ when "/"
   puts "Sonuç:"
   puts num1/num2
 end
+
+begin
+  raise ZeroDivisionError
+rescue
+  puts "!!YOU CANT DIVINE ANY NUMBER WITH ZERO!!"
+end
